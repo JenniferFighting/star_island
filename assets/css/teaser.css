@@ -1,0 +1,59 @@
+@font-face {
+    font-family: 'Iceland';
+    src: url('../fonts/Iceland-Regular.ttf') format('truetype');
+}
+
+main{
+    height: 99vh;
+    background:no-repeat url("../pictures/Perso2-removebg-preview.png");
+    background-color: black;
+    background-position:  top right 20%;
+    background-size: contain;
+}
+
+#timer {
+    color: white;
+    text-align: center;
+    font-family: 'Iceland', cursive;
+    font-size: 5vw;
+    position: fixed; /* or absolute */
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.socialMedia{
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    /* margin: 0 auto; */
+}
+
+.socialMedia ul {
+    display: flex;
+    gap: 20px;
+}
+  
+.socialMedia li {
+    /* float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px; */
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  .socialMedia img{
+    /* text-align: center;
+    margin-top: 3%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px; */
+    width: 40px;
+  }
+
+  
