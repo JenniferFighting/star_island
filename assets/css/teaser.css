@@ -3,12 +3,26 @@
     src: url('../fonts/Iceland-Regular.ttf') format('truetype');
 }
 
+body {
+   background: linear-gradient(180deg, #000000 56.91%, rgba(0, 0, 0, 0.22) 81.52%);
+}
+
+
+
 main{
     height: 99vh;
-    background:no-repeat url("../pictures/Perso2-removebg-preview.png");
+    background:no-repeat url("../pictures/predation.png");
     background-color: black;
-    background-position:  top right 20%;
+    background-position:  top right 10%;
     background-size: contain;
+}
+
+.logo {
+    height: 100px;
+    width: 200px;
+    font-size: 50px;
+    display: flex;
+    align-items: center;
 }
 
 #timer {
@@ -17,7 +31,7 @@ main{
     font-family: 'Iceland', cursive;
     font-size: 5vw;
     position: fixed; /* or absolute */
-    top: 50%;
+    top: 70%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
@@ -31,20 +45,24 @@ main{
     /* margin: 0 auto; */
 }
 
-.socialMedia ul {
-    display: flex;
-    gap: 20px;
+.socialMedia:hover .socialMedia_1 {
+    transform: translateX(50px);
 }
-  
-.socialMedia li {
-    /* float: left;
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px; */
-    text-decoration: none;
-    font-size: 17px;
-  }
+
+.socialMedia_1 {
+    /*display: flex;
+    gap: 20px;*/
+}
+
+.socialMedia_2 {
+    /*display: flex;
+    gap: 20px;*/
+}
+
+.socialMedia_3 {
+    /*display: flex;
+    gap: 20px;*/
+}
   
   .socialMedia img{
     /* text-align: center;
@@ -56,4 +74,14 @@ main{
     width: 40px;
   }
 
-  
+.presentation {
+    text-align: center;
+    width:25%;
+    color: aliceblue;
+    font-family: 'Iceland';
+    border: solid rgb(174, 35, 35);
+    border-style: outset;
+    font-size: large;
+    margin-top: 10%;
+    margin-left: 10%;
+}

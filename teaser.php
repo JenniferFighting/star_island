@@ -13,19 +13,37 @@
 <body>
 
     <main>
+            <img class="logo" src="assets/pictures/starisland.png">
+
+
+        <div class ="presentation">
+                    <h2>Title</h2>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Exercitationem, vero cum amet tempore eveniet culpa eligendi ratione veniam incidunt nihil?</p>
+                </div>
+
         <!--<img src="assets/pictures/Perso2-removebg-preview.png" alt="">!-->
         <div id="timer"></div>
-        <div class="socialMedia">
-            <ul class="active">
-                <li><a href=""><img src="assets/pictures/instagram_color.png" alt="instagram"></li></a>
-                <li><a href=""><img src="assets/pictures/facebook (3).png" alt="facebook"></li></a>
-                <li><a href=""><img src="assets/pictures/tik-tok.png" alt="tiktok"></li></a>
-                <li><a href=""><img src="assets/pictures/logo_discord.png" alt="discord"></li></a>
-                <li><a href=""><img src="assets/pictures/twitter.png" alt="twitter"></li></a>
-                <li><a href=""><img src="assets/pictures/twitch.png" alt="twitch"></li></a>
-                <li><a href=""><img src="assets/pictures/youtube.png" alt="youtube"></li></a>
-            </ul>
-        </div>
+
+            <div class="socialMedia">
+
+                <div class="socialMedia_1">
+                        <a href=""><img src="assets/pictures/instagram_color.png" alt="instagram"></a>
+                        <a href=""><img src="assets/pictures/facebook (3).png" alt="facebook"></a>
+                        <a href=""><img src="assets/pictures/tik-tok.png" alt="tiktok"></a>
+                </div>
+
+                <div class="socialMedia_2">
+                        <img src="assets/pictures/logo_discord.png" alt="discord">
+                </div>
+
+                <div class="socialMedia_3">
+                        <a href=""><img src="assets/pictures/twitter.png" alt="twitter"></a>
+                        <a href=""><img src="assets/pictures/twitch.png" alt="twitch"></a>
+                        <a href=""><img src="assets/pictures/youtube.png" alt="youtube"></a>
+                </div> 
+
+            </div>
+           
     </main>
 
 
@@ -50,6 +68,24 @@
         }
         Rebour();
     </script>
+
+<!-- <script>
+      
+      document.addEventListener("DOMContentLoaded", function () {
+        const img = document.querySelector("#discordButton img");
+      
+        img.addEventListener("mouseenter", function () {
+          img.src = "assets/pictures/logo_discord.png";
+          
+        })
+      
+        img.addEventListener("mouseleave", function () {
+          img.src = "";
+         
+        })
+      })
+</script> -->
+
 </body>
 
 </html>
