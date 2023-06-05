@@ -48,6 +48,7 @@
 
 
 
+
     <script type="text/javascript">
         var Affiche = document.getElementById("timer");
 
@@ -68,6 +69,14 @@
         }
         Rebour();
     </script>
+
+<!-- <script>
+    document.getElementById('discordLogo').addEventListener('click', function() {
+    document.querySelector('.socialMedia_1').style.display = 'flex';
+    document.querySelector('.socialMedia_3').style.display = 'flex';
+});
+</script> -->
+
 
 <!-- <script>
       

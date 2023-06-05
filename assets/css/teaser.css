@@ -4,25 +4,24 @@
 }
 
 body {
-   background: linear-gradient(180deg, #000000 56.91%, rgba(0, 0, 0, 0.22) 81.52%);
-}
-
+    background:linear-gradient(to right, rgba(0, 0, 0, 0.22) 6.91%, #000000 21.52%);
+    }
+    
 
 
 main{
     height: 99vh;
-    background:no-repeat url("../pictures/predation.png");
-    background-color: black;
-    background-position:  top right 10%;
-    background-size: contain;
+    background: no-repeat right 10%/contain url("../pictures/predation.png");
+
 }
 
 .logo {
-    height: 100px;
-    width: 200px;
+    height: 200px;
+    width: 400px;
     font-size: 50px;
-    display: flex;
-    align-items: center;
+    /*display: flex;*/
+    margin: 5%;
+
 }
 
 #timer {
@@ -31,48 +30,10 @@ main{
     font-family: 'Iceland', cursive;
     font-size: 5vw;
     position: fixed; /* or absolute */
-    top: 70%;
+    top: 80%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
-
-.socialMedia{
-    position: absolute;
-    bottom: 0;
-    display: flex;
-    justify-content: center;
-    width: 100%;
-    /* margin: 0 auto; */
-}
-
-.socialMedia:hover .socialMedia_1 {
-    transform: translateX(50px);
-}
-
-.socialMedia_1 {
-    /*display: flex;
-    gap: 20px;*/
-}
-
-.socialMedia_2 {
-    /*display: flex;
-    gap: 20px;*/
-}
-
-.socialMedia_3 {
-    /*display: flex;
-    gap: 20px;*/
-}
-  
-  .socialMedia img{
-    /* text-align: center;
-    margin-top: 3%;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 20px; */
-    width: 40px;
-  }
 
 .presentation {
     text-align: center;
@@ -82,6 +43,42 @@ main{
     border: solid rgb(174, 35, 35);
     border-style: outset;
     font-size: large;
-    margin-top: 10%;
-    margin-left: 10%;
+    margin-bottom: 15%;
+    margin-left: 6%;
 }
+
+
+.socialMedia{
+   position: absolute;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.socialMedia img{
+    width: 40px;
+  }
+
+.socialMedia_1,
+.socialMedia_3 {
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+.socialMedia_2:hover ~ .socialMedia_1{
+    opacity: 1;
+}
+
+.socialMedia_2:hover ~ .socialMedia_3 {
+    opacity: 1;
+}
+
+.socialMedia_3 a:not(:last-child) {
+    margin-right: 10px;
+  }
+
+.socialMedia_1 a:not(:last-child) {
+    margin-right: 10px; 
+  }
+  
