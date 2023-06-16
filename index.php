@@ -9,13 +9,31 @@
         <section class="bkg-img" >
             
         <div class="title">
-            <h2>Bienvenue sur Star'Island</h2>
+            <h1>Bienvenue sur Star'Island</h1>
         </div>
 
-        <div class="presentation">
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt quaerat doloremque alias expedita eos quis cupiditate molestiae magni saepe reiciendis neque quam, doloribus, nulla sequi at nemo vero, unde quas.</p>
-        </div>
+        <section class="presentation">
+                    <h2>L'expérience ultime de GTA 5 RP Free-to-Play</h2>
+                
+                    <p>Plongez dans un monde immersif et captivant de simulation réaliste où vous pouvez créer votre propre destinée. </p>
+                    <p>Incarnez un justicier de Los Santos, ou un chef de gang. </p>
+                    <p>Rejoignez une communauté passionnée. À vous de jouer !</p>
+                </div>
 
+                <div class="container-socialMedia">
+
+<div class="socialMedia">
+        <a href="" class="icon_social"><img src="assets/pictures/instagram_color.png" alt="instagram"></a>
+        <a href="" class="icon_social"><img src="assets/pictures/facebook (3).png" alt="facebook"></a>
+        <a href="" class="icon_social"><img src="assets/pictures/tik-tok.png" alt="tiktok"></a>
+
+        <img src="assets/pictures/logo_discord.png" alt="discord" id="discord">
+
+        <a href="" class="icon_social"><img src="assets/pictures/twitter.png" alt="twitter"></a>
+        <a href="" class="icon_social"><img src="assets/pictures/twitch.png" alt="twitch"></a>
+        <a href="" class="icon_social"><img src="assets/pictures/youtube.png" alt="youtube"></a>
+</div>
+</div>    
         </section>
 
 

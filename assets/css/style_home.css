@@ -1,0 +1,61 @@
+
+.title>h1 {
+    text-align: center;
+    color: #FA8072;
+    font-weight: bold;
+    font-family:"Iceland";
+    font-size: 75px;
+}
+
+.presentation {
+    text-align: center;
+    width: 30%;
+    /* color: black; */
+    color: azure;
+    font-family: 'Iceland';
+    font-weight: bold;
+    border-style: outset;
+    font-size: large;
+    margin-bottom: 20%;
+    margin-left: 50%;
+    margin-top: 3%;
+    background-color: rgba(0, 0, 0, 0.5); 
+    border-radius: 20px;
+}
+.presentation h2{
+    font-weight: bold;
+    color:#FA8072;
+    font-size: xx-large;
+}
+
+/* .presentation>p{
+    background-color: rgba(0, 0, 0, 0.5); 
+    color: white;
+} */
+
+.socialMedia {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 999; /* il faut s'assurer que la valeur z-index est supérieure à celle des autres éléments pour qu'il apparaisse au-dessus */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+  }
+  
+
+.icon_social img{
+    width: 3vw; 
+    opacity: 0;
+    transition: opacity 1s;
+}
+
+.socialMedia:hover .icon_social img{
+    opacity: 1;
+}
+
+.socialMedia a{
+    margin-right: 10px; 
+}
