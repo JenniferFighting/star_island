@@ -13,43 +13,48 @@
 <body>
 
     <main>
-            <img class="logo" src="assets/pictures/starisland.png">
+            <div class="container">
+
+             <img width="500" class="logo" src="assets/pictures/starisland.png">
+
+            
+            <audio src="assets/pictures/Roddy_Ricch_-_Bacc_Seat_feat._Ty_Dolla_ign_Official_Audio.mp3" id="mon-audio"></audio>
+            <button class="center-button"onclick="toggleAudio()">Play/Pause</button>
+            </div>
 
 
         <div class ="presentation">
-                    <h2>Title</h2>
-                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Exercitationem, vero cum amet tempore eveniet culpa eligendi ratione veniam incidunt nihil?</p>
+                    <h2>Bienvenue dans GTA V RP Free-to-Play</h2>
+                    <p>L'expérience ultime de jeu de rôle en ligne !</p>
+                    <p>Plongez dans un monde immersif et captivant de simulation réaliste où vous pouvez créer votre propre destinée. </p>
+                    <p>Incarnez un justicier de Los Santos, ou un chef de gang. </p>
+                    <p>Rejoignez une communauté passionnée. À vous de jouer !</p>
                 </div>
 
-        <!--<img src="assets/pictures/Perso2-removebg-preview.png" alt="">!-->
+    
         <div id="timer"></div>
 
-            <div class="socialMedia">
+        
 
-                <div class="socialMedia_1">
-                        <a href=""><img src="assets/pictures/instagram_color.png" alt="instagram"></a>
-                        <a href=""><img src="assets/pictures/facebook (3).png" alt="facebook"></a>
-                        <a href=""><img src="assets/pictures/tik-tok.png" alt="tiktok"></a>
+             <div class="container-socialMedia">
+
+                <div class="socialMedia">
+                        <a href="" class="icon_social"><img src="assets/pictures/instagram_color.png" alt="instagram"></a>
+                        <a href="" class="icon_social"><img src="assets/pictures/facebook (3).png" alt="facebook"></a>
+                        <a href="" class="icon_social"><img src="assets/pictures/tik-tok.png" alt="tiktok"></a>
+
+                        <img src="assets/pictures/logo_discord.png" alt="discord" id="discord">
+
+                        <a href="" class="icon_social"><img src="assets/pictures/twitter.png" alt="twitter"></a>
+                        <a href="" class="icon_social"><img src="assets/pictures/twitch.png" alt="twitch"></a>
+                        <a href="" class="icon_social"><img src="assets/pictures/youtube.png" alt="youtube"></a>
                 </div>
-
-                <div class="socialMedia_2">
-                        <img src="assets/pictures/logo_discord.png" alt="discord">
-                </div>
-
-                <div class="socialMedia_3">
-                        <a href=""><img src="assets/pictures/twitter.png" alt="twitter"></a>
-                        <a href=""><img src="assets/pictures/twitch.png" alt="twitch"></a>
-                        <a href=""><img src="assets/pictures/youtube.png" alt="youtube"></a>
-                </div> 
-
-            </div>
-           
+            </div>    
     </main>
 
 
+ <script type="text/javascript">
 
-
-    <script type="text/javascript">
         var Affiche = document.getElementById("timer");
 
         function Rebour() {
@@ -70,30 +75,17 @@
         Rebour();
     </script>
 
-<!-- <script>
-    document.getElementById('discordLogo').addEventListener('click', function() {
-    document.querySelector('.socialMedia_1').style.display = 'flex';
-    document.querySelector('.socialMedia_3').style.display = 'flex';
-});
-</script> -->
+    <script>
+        var audio = document.getElementById("mon-audio");
+            function toggleAudio() {
+                if (audio.paused) {
+                     audio.play();
+                     } else {
+                        audio.pause();
+                     }
+             }
+    </script>
 
-
-<!-- <script>
-      
-      document.addEventListener("DOMContentLoaded", function () {
-        const img = document.querySelector("#discordButton img");
-      
-        img.addEventListener("mouseenter", function () {
-          img.src = "assets/pictures/logo_discord.png";
-          
-        })
-      
-        img.addEventListener("mouseleave", function () {
-          img.src = "";
-         
-        })
-      })
-</script> -->
 
 </body>
 

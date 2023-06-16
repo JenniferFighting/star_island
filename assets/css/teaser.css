@@ -4,81 +4,161 @@
 }
 
 body {
-    background:linear-gradient(to right, rgba(0, 0, 0, 0.22) 6.91%, #000000 21.52%);
-    }
-    
+    /* background:linear-gradient(to right, rgba(255, 0, 0, 0.22) 6.91%, #000000 21.52%) */
+    background: linear-gradient(#e66465, #7d7e82, #242426);
+    overflow: hidden;  
+} 
 
 
 main{
     height: 99vh;
     background: no-repeat right 10%/contain url("../pictures/predation.png");
 
+} 
+
+.socialMedia {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 999; /* il faut s'assurer que la valeur z-index est supérieure à celle des autres éléments pour qu'il apparaisse au-dessus */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+  }
+  
+
+.icon_social img{
+    width: 3vw; 
+    opacity: 0;
+    transition: opacity 1s;
+}
+
+.socialMedia:hover .icon_social img{
+    opacity: 1;
+}
+
+.socialMedia a{
+    margin-right: 10px; 
 }
 
 .logo {
-    height: 200px;
-    width: 400px;
-    font-size: 50px;
-    /*display: flex;*/
-    margin: 5%;
+    font-size: 8vw;
+    /* margin: 3%; */
+    margin-top: 3%;
+    margin-left: 12%;
+    margin-bottom: 3%;
+    width: 20%; 
+} 
 
+button {
+    padding: 10px 20px; 
+    border: none;
+    background-color: black; 
+    color: #fff; 
+    font-size: 16px; 
+    cursor: pointer;
+    border-radius: 20px;
+    border : solid rgb(174, 35, 35);
 }
+  
+  button:hover {
+    background-color: #e80675 ; /* Couleur de fond au survol */
+  }
+  
+  button:focus {
+    outline: none; /* Supprime la bordure de focus */
+  }
+  
+  button:active {
+    background-color: orange; /* Couleur de fond au clic */
+  }
+  
+  .center-button {
+    position: absolute;
+    top: 50%;
+    left: 83%;
+    transform: translate(-50%, -50%);
+  }
+  
+
 
 #timer {
     color: white;
     text-align: center;
     font-family: 'Iceland', cursive;
-    font-size: 5vw;
-    position: fixed; /* or absolute */
-    top: 80%;
+    font-size: 4vw;
+    position: fixed; 
+    top: 82%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
 
 .presentation {
     text-align: center;
-    width:25%;
-    color: aliceblue;
+    width: 35%;
+    color: black;
     font-family: 'Iceland';
     border: solid rgb(174, 35, 35);
+    /* border: solid #e80675; */
     border-style: outset;
     font-size: large;
     margin-bottom: 15%;
     margin-left: 6%;
 }
-
-
-.socialMedia{
-   position: absolute;
-    bottom: 0;
-    display: flex;
-    justify-content: center;
-    width: 100%;
+.presentation h2{
+    font-weight: bold;
+    color: white;
 }
 
-.socialMedia img{
-    width: 40px;
-  }
 
-.socialMedia_1,
-.socialMedia_3 {
-    opacity: 0;
-    transition: opacity 0.3s ease;
-}
 
-.socialMedia_2:hover ~ .socialMedia_1{
-    opacity: 1;
-}
+@media screen and (max-width: 768px) {
+    .presentation {
+      width: 90%;
+      font-size: 16px;
+      margin-bottom: 20%;
+      margin-left: 5%;
+      border-style: hidden;
+      color: white;
+    }
 
-.socialMedia_2:hover ~ .socialMedia_3 {
-    opacity: 1;
-}
+    .presentation h2 {
+        margin-top: 2%;
+        color: white; 
+        /* background-color: rgba(0, 0, 0, 0.5); */
+        padding: 10px; 
+      }
 
-.socialMedia_3 a:not(:last-child) {
-    margin-right: 10px;
-  }
-
-.socialMedia_1 a:not(:last-child) {
-    margin-right: 10px; 
-  }
+    .presentation p {
+        margin-bottom: 30vh;
+        background-color: rgba(0, 0, 0, 0.5); 
+        color:white; 
+        text-align: center; 
+      }
   
+    .logo {
+      width: 20%;
+      margin: 2% 0;
+    }
+  
+    #timer {
+      font-size: 5vw;
+    }
+  
+    h2 {
+      margin-bottom: 40%;
+    }
+    .icon_social img{
+        opacity: 1;
+        width: 5vw;
+    }
+    }
+  
+    @media (max-width: 576px) { 
+        .icon_social img{
+            opacity: 1;
+            width: 4vw;
+        }
+    }

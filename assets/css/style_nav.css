@@ -1,0 +1,36 @@
+.navbar{
+    background-color: black;
+}
+
+.logo {
+    width: 10%; 
+}
+
+
+.navbar-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 10vh;
+  }
+
+  body {
+        height: 100%;
+        margin: 0;
+      }
+
+  .bkg-img {
+    background-image: url("../pictures/profile.png");
+    background-position: center;
+    background-size: cover;
+    height: 90vh;
+    width: 100%;
+  }
+ 
+h2 {
+    text-align: center;
+    font-weight: bold;
+    justify-content: center;
+    font-family: 'Iceland';
+    margin-bottom: 10%;
+  }
