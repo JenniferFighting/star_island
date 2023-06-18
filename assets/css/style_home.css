@@ -7,6 +7,10 @@
     font-size: 75px;
 }
 
+.bkg-img {
+    position: relative;
+  }
+
 .presentation {
     text-align: center;
     width: 30%;
@@ -28,10 +32,25 @@
     font-size: xx-large;
 }
 
-/* .presentation>p{
-    background-color: rgba(0, 0, 0, 0.5); 
-    color: white;
-} */
+.circle-container {
+    position: absolute;
+    top: 75%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+.circle {
+    background: #FA8072;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+    display: inline-block;
+}
+
+.white-circle {
+    background: #FFF;
+  }
 
 .socialMedia {
     position: fixed;

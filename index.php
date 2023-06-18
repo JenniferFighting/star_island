@@ -20,7 +20,15 @@
                     <p>Rejoignez une communauté passionnée. À vous de jouer !</p>
                 </div>
 
-                <div class="container-socialMedia">
+        </section>
+
+         <div class="circle-container">
+         <div class="circle white-circle"></div>  
+             <div class="circle"></div>
+                 <div class="circle"></div>
+        </div>
+
+        <section class="container-socialMedia">
 
 <div class="socialMedia">
         <a href="" class="icon_social"><img src="assets/pictures/instagram_color.png" alt="instagram"></a>
@@ -33,7 +41,7 @@
         <a href="" class="icon_social"><img src="assets/pictures/twitch.png" alt="twitch"></a>
         <a href="" class="icon_social"><img src="assets/pictures/youtube.png" alt="youtube"></a>
 </div>
-</div>    
+                </section>    
         </section>
 
 
