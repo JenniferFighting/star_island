@@ -44,11 +44,12 @@
                 </section>    
         </section>
 
+<section class="second-img">
+<div class="second-title">
+    <h1>Votre avis nous interesse</h1>
 
+</div>
+</section>
         
-
-
-
-
 
 <?php     require_once 'inc/footer.inc.php';          ?>
