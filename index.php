@@ -51,5 +51,23 @@
 </div>
 </section>
         
+<footer>
+
+    <div class="contact">
+
+    <!-- <p style="float:left"><img src="assets\pictures\icone-de-messagerie.png" alt="mail"></p>
+    <p>Contact</p>
+    <div style="clear:both">
+    </div> -->
+    
+    <img src="assets\pictures\icone-de-messagerie.png" alt="mail">
+        <p>Contact</p> 
+
+        <img src="assets\pictures\V.jpg" alt="gtaV">
+
+        <img src="assets\pictures\18.png" alt="under18">
+        </div> 
+
+</footer>
 
 <?php     require_once 'inc/footer.inc.php';          ?>

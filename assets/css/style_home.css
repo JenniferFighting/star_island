@@ -95,3 +95,30 @@
     font-family:"Iceland";
     font-size: 75px;
 }
+
+footer{
+    background-color:#C2B280;  
+    /* background-color: #e1bf92; */
+}
+  .contact {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end ;
+  } 
+  
+  .contact img {
+    width: 3vw;
+    margin-right: 10px;
+  }
+  
+  .contact p {
+    margin: 0;
+    color:black;
+    font-family: "Iceland";
+    font-weight: bold;
+    font-size: medium;
+    margin-right: 15px;
+
+  }
+
+
