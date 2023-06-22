@@ -1,0 +1,143 @@
+* {
+    box-sizing: border-box;
+  }
+
+  body {
+    overflow: hidden;
+  }
+
+.title>h1 {
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    font-family:"Iceland";
+    font-size: 75px;
+}
+
+.new-image {
+    background-image: url("../pictures/behang-met-de-skyline-van-miami_9.jpg");
+    background-position: center;
+    background-size: cover;
+    height: 82vh;
+    width: 100%;
+    position: relative;
+  }
+
+  .socialMedia {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 999; /* il faut s'assurer que la valeur z-index est supérieure à celle des autres éléments pour qu'il apparaisse au-dessus */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+  }
+  
+
+.icon_social img{
+    width: 3vw; 
+    opacity: 0;
+    transition: opacity 1s;
+}
+
+.socialMedia:hover .icon_social img{
+    opacity: 1;
+}
+
+.socialMedia a{
+    margin-right: 10px; 
+}
+
+footer{
+    /* background-color:#FF69B4;   */
+    background-color: #FFB6C1;
+}
+  .contact {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end ;
+  } 
+  
+  .contact img {
+    width: 3vw;
+    margin-right: 10px;
+  }
+  
+  .contact p {
+    margin: 0;
+    color:black;
+    font-family: "Iceland";
+    font-weight: bold;
+    font-size: medium;
+    margin-right: 15px;
+  }
+
+  /* Position the image container (needed to position the left and right arrows) */
+  .container {
+    position: relative;
+    width: 50%;
+    bottom: 20%;
+  }
+  
+  /* Hide the images by default */
+  .mySlides {
+    display: none;
+  }
+  
+  /* Add a pointer when hovering over the thumbnail images */
+  .cursor {
+    cursor: pointer;
+  }
+  
+  /* Next & previous buttons */
+  .prev,
+  .next {
+    cursor: pointer;
+    position: absolute;
+    top: 40%;
+    width: auto;
+    padding: 16px;
+    margin-top: -50px;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+    -webkit-user-select: none;
+  }
+  
+  /* Position the "next button" to the right */
+  .next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+  
+  /* On hover, add a black background color with a little bit see-through */
+  .prev:hover,
+  .next:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+  }
+
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Six columns side by side */
+  .column {
+    float: left;
+    width: 16.66%;
+  }
+  
+  /* Add a transparency effect for thumnbail images */
+  .demo {
+    opacity: 0.6;
+  }
+  
+  .active,
+  .demo:hover {
+    opacity: 1;
+  }

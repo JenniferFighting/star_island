@@ -3,7 +3,7 @@
             ?>
 
 
-    <link rel="stylesheet" href="assets/css/style_home.css">
+    <link rel="stylesheet" href="assets/css/style_realGallery.css">
 
 
         <section class="bkg-img" >
