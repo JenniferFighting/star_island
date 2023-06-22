@@ -1,0 +1,109 @@
+.bkg {
+    background-image: url("../pictures/gta_decors4\ 1.png");
+    background-position: center;background-size: cover;
+   
+    position: relative;
+    height: 81.5vh;
+    width: 100%;
+}
+
+.title>h1 {
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    font-family:"Iceland";
+    font-size: 75px;
+}
+
+.title>h2 {
+    text-align: center;
+    color:#B22222;
+    font-weight: bold;
+    font-family:"Iceland";
+    font-size: 45px;
+    margin-bottom: 10px;
+}
+
+ .title>p {
+    text-align: center;
+    color:white;
+    font-family:"Iceland";
+    font-size: 31px;
+    margin-top: 20px;
+    margin-left: 20%;
+    width: 60%;
+} 
+
+  .socialMedia {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 999; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+  
+
+.icon_social img{
+    width: 3vw; 
+    opacity: 0;
+    transition: opacity 1s;
+}
+
+.socialMedia:hover .icon_social img{
+    opacity: 1;
+}
+
+.socialMedia a{
+    margin-right: 10px; 
+}
+
+footer{
+    background-color: #5A5E6B;
+    /* background-color:#303030; */
+}
+.contact {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end ;
+} 
+  
+.contact img {
+    width: 3vw;
+    margin-right: 10px;
+}
+  
+.contact p {
+    margin: 0;
+    color:black;
+    font-family: "Iceland";
+    font-weight: bold;
+    font-size: medium;
+    margin-right: 15px;
+}
+
+#player1 {
+    height: 200px;
+    position: fixed;
+    top: 0;
+    right: -160px;
+    transform: translate(-50%, 50%);
+    border: 2px solid rgb(174, 35, 35);
+    border-style: outset;
+    box-sizing: border-box;
+  }
+  
+
+#player2 img {
+        height: 500px;
+        position: fixed;
+        bottom: 135px;
+        left: 140px;
+        transform: translate(-50%, 50%);
+        border: 2px solid rgb(174, 35, 35);
+        border-style: outset;
+}
+      

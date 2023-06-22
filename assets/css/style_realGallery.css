@@ -28,7 +28,7 @@
     bottom: 0;
     left: 0;
     right: 0;
-    z-index: 999; /* il faut s'assurer que la valeur z-index est supérieure à celle des autres éléments pour qu'il apparaisse au-dessus */
+    z-index: 999; 
     display: flex;
     justify-content: center;
     align-items: center;
