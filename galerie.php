@@ -10,14 +10,14 @@
   <div class="carousel-container">
 
     <div class="mySlides">
-        <img src="assets/pictures/ellios.png" alt="Image 1">
+        <img src="assets/pictures/voiture1.png" alt="Image 1">
     </div>
 
       <div class="mySlides">
-        <img src="assets/pictures/hans.png" alt="Image 2">
+        <img src="assets/pictures/voiture2.png" alt="Image 2">
       </div>
       <div class="mySlides">
-        <img src="assets/pictures/predation.png" alt="Image 3">
+        <img src="assets/pictures/voiture3.png" alt="Image 3">
       </div>
       <div class="mySlides">
         <img src="assets/pictures/teaser5(1).png" alt="Image 4">
@@ -43,11 +43,11 @@
   </div>
 </section>
 
-            <div class="circle-container">
+            <!-- <div class="circle-container">
          <div class="circle"></div>  
              <div class="circle white-circle"></div>
                  <div class="circle"></div>
-        </div>
+        </div> -->
 
 <section class="container-socialMedia">
 
