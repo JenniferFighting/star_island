@@ -1,3 +1,8 @@
+.team {
+    height: 81.5vh;
+    width: 100%;
+}
+
 .title>h1 {
     text-align: center;
     color: #FA8072;
@@ -56,3 +61,62 @@ footer{
     font-size: medium;
     margin-right: 15px;
 }
+
+ /* #avatars-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    align-items: baseline; 
+    justify-content: center;
+    text-align: center;
+    margin-left: 20px;
+  }
+  
+  #avatars-container img {
+    margin-bottom: 10px; 
+  }   */
+
+    /* #avatars-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  
+  #avatars-container img {
+    margin-right: 15px;
+  }
+  
+  #avatars-container img:last-child {
+    margin-right: 0;
+  }   */
+  
+   /* .users-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-items: baseline;
+    flex-wrap: wrap;
+  }
+  
+  .users-container img {
+    margin: 20px;
+  }  */
+
+  .users-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+  }
+  
+  .user-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin: 10px;
+    
+  }
+  
+ 
