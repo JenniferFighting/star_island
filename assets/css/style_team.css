@@ -1,0 +1,58 @@
+.title>h1 {
+    text-align: center;
+    color: #FA8072;
+    font-weight: bold;
+    font-family:"Iceland";
+    font-size: 75px;
+}
+
+.socialMedia {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 999; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+  
+
+.icon_social img{
+    width: 3vw; 
+    opacity: 0;
+    transition: opacity 1s;
+}
+
+.socialMedia:hover .icon_social img{
+    opacity: 1;
+}
+
+.socialMedia a{
+    margin-right: 10px; 
+}
+
+footer{
+    background-color: #5A5E6B;
+    /* background-color:#303030; */
+}
+.contact {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end ;
+} 
+  
+.contact img {
+    width: 3vw;
+    margin-right: 10px;
+}
+  
+.contact p {
+    margin: 0;
+    color:black;
+    font-family: "Iceland";
+    font-weight: bold;
+    font-size: medium;
+    margin-right: 15px;
+}
