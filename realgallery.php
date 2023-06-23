@@ -11,7 +11,7 @@
         <div class="title">
             <h1>GALERIE</h1>
         </div>
-
+        </section>
 
 
 <!-- Container for the image gallery -->
@@ -82,7 +82,7 @@
         <a href="" class="icon_social"><img src="assets/pictures/twitch.png" alt="twitch"></a>
         <a href="" class="icon_social"><img src="assets/pictures/youtube.png" alt="youtube"></a>
 </div>
-        </section>
+        <!-- </section> -->
 
 <footer>
     <div class="contact">

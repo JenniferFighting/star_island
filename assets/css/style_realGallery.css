@@ -8,7 +8,7 @@
 
 .title>h1 {
     text-align: center;
-    color: white;
+    color: black;
     font-weight: bold;
     font-family:"Iceland";
     font-size: 75px;
@@ -75,12 +75,22 @@ footer{
   }
 
   /* Position the image container (needed to position the left and right arrows) */
-  .container {
+  /* .container {
     position: relative;
     width: 50%;
     bottom: 20%;
   }
+   */
+
+   .container {
+    position: absolute;
+    left: 50%;
+    top: 60%;
+    transform: translate(-50%, -50%);
+    width: 40%;
+  }
   
+
   /* Hide the images by default */
   .mySlides {
     display: none;
